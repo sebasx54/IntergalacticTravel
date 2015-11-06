@@ -14,6 +14,7 @@
 		E766356A1BEBC4850099E146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76635681BEBC4850099E146 /* LaunchScreen.storyboard */; };
 		E76635751BEBC4850099E146 /* intergalacticTravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76635741BEBC4850099E146 /* intergalacticTravelTests.swift */; };
 		E76635801BEBC4850099E146 /* intergalacticTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E766357F1BEBC4850099E146 /* intergalacticTravelUITests.swift */; };
+		E7B8559D1BED03E0004D45A6 /* ImageViewControlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B8559C1BED03E0004D45A6 /* ImageViewControlerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E766357B1BEBC4850099E146 /* intergalacticTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = intergalacticTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E766357F1BEBC4850099E146 /* intergalacticTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = intergalacticTravelUITests.swift; sourceTree = "<group>"; };
 		E76635811BEBC4850099E146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B8559C1BED03E0004D45A6 /* ImageViewControlerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewControlerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E766355F1BEBC4850099E146 /* AppDelegate.swift */,
 				E76635611BEBC4850099E146 /* ViewController.swift */,
 				E76635631BEBC4850099E146 /* Main.storyboard */,
+				E7B8559C1BED03E0004D45A6 /* ImageViewControlerViewController.swift */,
 				E76635661BEBC4850099E146 /* Assets.xcassets */,
 				E76635681BEBC4850099E146 /* LaunchScreen.storyboard */,
 				E766356B1BEBC4850099E146 /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B8559D1BED03E0004D45A6 /* ImageViewControlerViewController.swift in Sources */,
 				E76635621BEBC4850099E146 /* ViewController.swift in Sources */,
 				E76635601BEBC4850099E146 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				E76635861BEBC4850099E146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E76635871BEBC4850099E146 /* Build configuration list for PBXNativeTarget "intergalacticTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				E76635891BEBC4850099E146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E766358A1BEBC4850099E146 /* Build configuration list for PBXNativeTarget "intergalacticTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				E766358C1BEBC4850099E146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
