@@ -17,22 +17,41 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ory-4R-HOd">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ory-4R-HOd">
                                 <rect key="frame" x="254" y="174" width="93" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="93" id="K7z-xH-qXV"/>
+                                    <constraint firstAttribute="height" constant="30" id="VBp-wX-abZ"/>
+                                </constraints>
                                 <state key="normal" title="Visit Red Star"/>
                                 <connections>
                                     <segue destination="scD-uh-9nj" kind="show" id="IhB-yD-MaH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otQ-7L-qi2">
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="7ra-7C-kiN">
                                 <rect key="frame" x="252" y="336" width="96" height="30"/>
-                                <state key="normal" title="Visit Blue Star"/>
-                                <connections>
-                                    <segue destination="scD-uh-9nj" kind="show" id="A1f-jP-Tp7"/>
-                                </connections>
-                            </button>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otQ-7L-qi2">
+                                        <rect key="frame" x="0.0" y="0.0" width="96" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="ONQ-jF-82O"/>
+                                            <constraint firstAttribute="width" constant="96" id="Ts2-RH-eOD"/>
+                                        </constraints>
+                                        <state key="normal" title="Visit Blue Star"/>
+                                        <connections>
+                                            <segue destination="scD-uh-9nj" kind="show" id="A1f-jP-Tp7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7ra-7C-kiN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2jm-Ng-ZO0"/>
+                            <constraint firstItem="Ory-4R-HOd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Jj-6p-ANv"/>
+                            <constraint firstItem="Ory-4R-HOd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GmD-mD-ti1"/>
+                            <constraint firstItem="7ra-7C-kiN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fds-P8-ixt"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Intergalactic" id="Qg6-1o-CX0"/>
                 </viewController>
